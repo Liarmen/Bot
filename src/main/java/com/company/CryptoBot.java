@@ -23,7 +23,7 @@ public class CryptoBot extends TelegramLongPollingBot {
         String chatid =  update.getMessage().getChatId().toString();
         CCVolume ccVolume = new CCVolume();
         CryptoCurrency cryptoCurrency = new CryptoCurrency();
-        if(text.equalsIgnoreCase("Вывести курс")) {
+        if(text.equalsIgnoreCase("Вывести курс крипти")) {
 
             cryptoCurrency.ddsmth(text, chatid);
         }
