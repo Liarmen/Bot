@@ -32,7 +32,10 @@ public class CryptoBot extends TelegramLongPollingBot {
         } else{
             ccVolume.ddsmth(" ", chatid);
         }
+  if(text.equalsIgnoreCase("BTC")) {
 
+            ccVolume.ddsmth(text, chatid);
+        }
 
     }
 
