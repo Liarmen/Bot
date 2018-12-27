@@ -30,7 +30,7 @@ public class CryptoBot extends TelegramLongPollingBot {
         else if(text.equalsIgnoreCase("/start")){
            sendMessage("Привіт! Якщо хочеш побачити інформацію про криптовалюту то напиши її скорочення(Наприклад BTC)", chatid);
         } else{
-            ccVolume.ddsmth(" ", chatid);
+            ccVolume.ddsmth(text, chatid);
         }
   if(text.equalsIgnoreCase("BTC")) {
 
